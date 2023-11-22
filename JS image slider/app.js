@@ -25,7 +25,7 @@
                     counter = pictures.lenght - 1
 
                 }
-                imgDiv.style.background = 'url('img/${pictures[counter]}.jpg')'
+                imgDiv.style.background = 'url("img/${pictures[counter]}.jpg")'
             }
             if (button.classList.contains('btn-right')){
                 counter++
@@ -33,7 +33,7 @@
                     counter = 0
 
                 }
-                imgDiv.style.background = 'url('img/${pictures[counter]}.jpg')'
+                imgDiv.style.background = 'url("img/${pictures[counter]}.jpg")'
             }
         })
     })
